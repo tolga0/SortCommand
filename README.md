@@ -15,7 +15,7 @@ Option | Description
 ------------ | -------------
 -l, --locale | The locale. [defaults to en-US]
 -r, --reverse | Reverse the result of comparisons.
--i, --ignore-case | Fold lower case to upper case characters using the given locale
+-i, --ignore-case | Fold lower case to upper case characters using the supplied locale.
 -o, --output=FILE | Write result to FILE instead of standard output.
 
 

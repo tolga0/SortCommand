@@ -40,7 +40,7 @@ E
 T
 `
 
-For example, `java jar target/sort.jar lines.txt` will produce the following output:
+For example, `java jar target/sort.jar letters.txt` will produce the following output:
 `
 A
 E
@@ -56,7 +56,7 @@ t
 
 
 
-Another example, `java jar target/sort.jar -i lines.txt` will produce the following output:
+Another example, `java jar target/sort.jar -i letters.txt` will produce the following output:
 `
 A
 a
@@ -69,6 +69,40 @@ m
 T
 t
 `
+
+Note that sorting Turkish letters **without** `-l tr-TR` option will produce the following output:
+`
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+r
+s
+t
+u
+v
+y
+z
+ç
+ö
+ü
+ğ
+ı
+ş
+`
+whereas sorting Turkish letters **with** `-l tr-TR` option will produce the correct order.
 
 **P.S.** To parse command line arguments, you can use [JewelCLI](http://jewelcli.lexicalscope.com) library.
 

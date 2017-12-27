@@ -13,7 +13,7 @@ The enhanced version will support the following command line options.
 
 Option | Description
 ------------ | -------------
--l, --locale | The locale of entities to display. [defaults to en-US]
+-l, --locale | The locale. [defaults to en-US]
 -r, --reverse | Reverse the result of comparisons.
 -i, --ignore-case | Fold lower case to upper case characters using the given locale
 -o, --output=FILE | Write result to FILE instead of standard output.

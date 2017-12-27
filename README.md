@@ -24,7 +24,7 @@ Similar to [GNU Core Utilities'](https://www.gnu.org/software/coreutils/coreutil
 
 **sort syntax:** `sort [OPTION]... [FILE]...`
 
-sort examples
+**sort examples**
 
 Let's say you have a file, letters.txt, which contains the following lines:
 `
